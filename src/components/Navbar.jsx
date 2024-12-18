@@ -4,7 +4,7 @@ import { navItems } from '../constants'
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between border-b border-gray-300 pt-8 pb-8'>
+    <div className='flex justify-between border-b pt-8 pb-8 pl-16 pr-16'>
     <div className='flex space-x-8 items-center'>
         <p className=' flex text-[#fff] font-bold text-4xl justify-center tracking-wider '>KEBULANIA</p>
         <ul className='text-[#fff] flex space-x-8 justify-center pl-36 '>
