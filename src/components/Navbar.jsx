@@ -4,12 +4,12 @@ import { navItems } from '../constants'
 
 const Navbar = () => {
   return (
-    <div>
-    <div className='flex'>
-        <img className="h-15 w-20 ml-4" src={kebulania} alt='kebulania'/>
-        <ul className=''>
+    <div className='flex justify-between border-b border-gray-300 pt-8 pb-8'>
+    <div className='flex space-x-8 items-center'>
+        <p className=' flex text-[#fff] font-bold text-4xl justify-center tracking-wider '>KEBULANIA</p>
+        <ul className='text-[#fff] flex space-x-8 justify-center pl-36 '>
           {navItems.map((item, index) => (
-            <li key={index}>
+            <li className='hover:text-blue-600  transition duration-500' key ={index}>
               <a href={item.href}>
                 {item.label}
               </a>
@@ -17,11 +17,15 @@ const Navbar = () => {
           ))}
         </ul>
     </div>
-    <div>
-      <a href='#' className='py-2 px-3 border rounded-md'>
+    <div className='space-x-6'>
+      <a href='#' className='py-3 px-8 border rounded-full text-[#fff] text-sm font-medium  
+      "
+      '>
         INVEST NOW
         </a>
-        <a href='#' className='py-2 px-3 border rounded-md'>
+        <a href='#' className='py-3 px-8 border rounded-full bg-[#E5C778] text-sm font-semibold text-[#000000]
+        hover:bg-blue-600  transition duration-200
+        '>
           JOIN US
         </a>
     </div>
