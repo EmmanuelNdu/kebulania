@@ -18,9 +18,7 @@ const Navbar = () => {
         </ul>
     </div>
     <div className='space-x-6'>
-      <a href='#' className='py-3 px-8 border rounded-full text-[#fff] text-sm font-medium  
-      "
-      '>
+      <a href='#' className='py-3 px-8 border rounded-full text-[#fff] text-sm font-medium'>
         INVEST NOW
         </a>
         <a href='#' className='py-3 px-8 border rounded-full bg-[#E5C778] text-sm font-semibold text-[#000000]
