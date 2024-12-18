@@ -4,7 +4,7 @@ import image from '../assets/image.png'
 const About = () => {
   return (
     <div className='bg-[#1D363C]'>
-    <div className='flex p-16 space-x-8 border-b'>
+    <div className='flex p-16 space-x-8 border-b-2 border-gray-400'>
     <div className='text-[#C3C9D1]'>
         <h1 className='text-[#E5C778] font-medium text-4xl tracking-widest pt-14'>ABOUT KEBULANIA</h1>
         <p className='pt-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/>
@@ -30,14 +30,14 @@ const About = () => {
     </div>
     <div className='flex justify-between p-24 items-center'>
     <div>
-      <h1 className='text-[#E5C778]'>VISION</h1>
-      <p className='text-[#fff]'>To redefine Africa's position in the global creative and digital<br/>
+      <h1 className='text-[#E5C778] text-2xl'>VISION</h1>
+      <p className='text-[#fff] text-base'>To redefine Africa's position in the global creative and digital<br/>
                                     integrates education, entertainment, residential living, and<br/>
                                     innovation, creativity, and sustainable growth.</p>
     </div>
     <div>
-      <h1 className='text-[#E5C778]'>MISSION</h1>
-      <p className='text-[#fff]'>To develop a world-class mixed-use community that<br/>
+      <h1 className='text-[#E5C778] text-2xl'>MISSION</h1>
+      <p className='text-[#fff] text-base'>To develop a world-class mixed-use community that<br/>
                                     economy by creating a dynamic environment that fosters <br/>
                                     innovation, creativity, and sustainable growth.</p>
     </div>

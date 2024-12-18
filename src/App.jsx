@@ -3,6 +3,7 @@ import './index.css'
 import Navbar from './components/Navbar'
 import First from './components/First'
 import About from './components/About'
+import Key from './components/Key'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +13,7 @@ function App() {
      <Navbar />
      <First />
      <About />
+     <Key />
     </>
   )
 }
