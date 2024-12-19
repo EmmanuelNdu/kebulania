@@ -4,9 +4,9 @@ import imagefo from '../assets/imagefo.png'
 const Hotel = () => {
   return (
     <div className='flex justify-between p-16 bg-[#fff]'>
-        <div className=''>
+        <div className='flex space-y-4 justify-center flex-col'>
             <h1 className='text-xl font-bold'>Hotel and lifestyle Amenities</h1>
-            <p>A 5-start hotel and a range of dinning, wellness and shopping<br/>
+            <p className='text-[#626D7C]'>A 5-start hotel and a range of dinning, wellness and shopping<br/>
             Center for an unparalled lifestle experience </p>
         </div>
         <img className='' src={imagefo} />
