@@ -8,7 +8,7 @@ const Key = () => {
       <div className='flex justify-center text-4xl font-medium text-[#A8882F] pt-20'>
       <h1>KEY FEATURES</h1>
       </div>
-        <div className='flex justify-between pt-16'>
+        <div className='flex space-x-10 pt-16'>
             <img className='' src={imagefi} />
             <div className='flex space-y-4 justify-center flex-col'>
             <h1 className='text-xl font-bold'>Lagos Film City</h1>
