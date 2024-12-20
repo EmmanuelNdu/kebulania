@@ -6,7 +6,7 @@ const Residential = () => {
     <div className='flex space-x-10 p-16 bg-[#fff]'>
          <img className='' src={imagethi} />
         <div className='flex space-y-4 justify-center flex-col'>
-            <h1 className='text-xl font-bold'>Residential Estates</h1>
+            <h1 className='text-2xl font-semibold'>Residential Estates</h1>
             <p className='text-[#626D7C]'>Luxury and affordable housing option designed for comfort<br/>
             and community living</p>
         </div>
