@@ -1,5 +1,4 @@
 import React from 'react'
-import kebulania from '../assets/kebulania.png'
 import { navItems } from '../constants'
 
 const Navbar = () => {

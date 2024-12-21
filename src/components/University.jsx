@@ -5,9 +5,13 @@ const University = () => {
   return (
     <div className='flex justify-between p-16 bg-[#fff]'>
         <div className='flex space-y-4 justify-center flex-col pl-40'>
-            <h1 className='text-2xl font-semibold'>Del-York Creative University</h1>
-            <p className='text-[#626D7C]'>A cutting-edge institution offering programs in creative arts,<br/>
-            digital media and business innovation. </p>
+            <h1 className='text-[28px] font-semibold'>Creative Excellence</h1>
+            <ul className='text-[#626D7C] text-[18px] list-disc font-medium pl-8'>
+              <li>Advanced virtual production</li>
+              <li>State-of-the-art post-production</li>
+              <li>Professional sound stages</li>
+              <li>Innovation laboratories</li>
+            </ul>
         </div>
         <img className='' src={imagesec} />
     </div>

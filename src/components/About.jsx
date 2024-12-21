@@ -1,11 +1,11 @@
 import React from 'react'
-import image from '../assets/image.png'
+import kebu from '../assets/kebu.png'
 
 const About = () => {
   return (
     <div className='bg-[#1D363C]'>
     <div className='flex p-16 space-x-8 border-b-2 border-gray-400'>
-    <div className='text-[#C3C9D1]'>
+    <div className='text-[#C3C9D1] flex-1'>
         <h1 className='text-[#E5C778] font-medium text-4xl tracking-widest pt-14'>ABOUT KEBULANIA</h1>
         <p className='pt-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/>
          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br/>
@@ -26,7 +26,7 @@ const About = () => {
                     iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae,vel<br/>
                      illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
     </div>
-    <img className='' src={image} />
+    <img className='' src={kebu} />
     </div>
     <div className='flex justify-between p-24 items-center'>
     <div>
