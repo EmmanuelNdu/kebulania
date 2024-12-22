@@ -11,9 +11,13 @@ const Key = () => {
         <div className='flex space-x-10 pt-16'>
             <img className='' src={imagefi} />
             <div className='flex space-y-4 justify-center flex-col'>
-            <h1 className='text-[28px] font-semibold'>Lagos Film City</h1>
-            <p className='text-[#626D7C] text-[18px]'>State-of-the-art production facilities attracting international <br/>
-            filmmakers and supporting local talent.</p>
+            <h1 className='text-[28px] font-semibold'>Transformative Scale</h1>
+            <ul className='text-[#626D7C] text-[18px] list-disc pl-8'>
+              <li>50,000 sqm AI-capable data center</li>
+              <li>500,000 sqm creative space</li>
+              <li>World-class production facilities</li>
+              <li>Global connectivity infrastructure</li>
+            </ul>
             </div>
         </div>
     </div>
