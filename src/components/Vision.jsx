@@ -17,6 +17,9 @@ const Vision = () => {
             <img src={cyber} />
             <img src={windmill} />
         </div>
+        <div>
+          <h1>A Platform for Excellence</h1>
+        </div>
     </div>
   )
 }
