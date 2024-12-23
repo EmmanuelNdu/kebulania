@@ -8,6 +8,7 @@ import University from './components/University'
 import Residential from './components/Residential'
 import Green from './components/Green'
 import Vision from './components/Vision'
+import Developer from './components/Developer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
      <Residential />
      <Vision />
      <Green />
+     <Developer />
     </>
   )
 }
