@@ -20,8 +20,8 @@ function App() {
      <Key />
      <University />
      <Residential />
-     <Green />
      <Vision />
+     <Green />
     </>
   )
 }
