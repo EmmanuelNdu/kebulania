@@ -9,6 +9,8 @@ import Residential from './components/Residential'
 import Green from './components/Green'
 import Vision from './components/Vision'
 import Developer from './components/Developer'
+import Nice from './components/Nice'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +26,8 @@ function App() {
      <Vision />
      <Green />
      <Developer />
+     <Nice />
+     <Footer />
     </>
   )
 }
