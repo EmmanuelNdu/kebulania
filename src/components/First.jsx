@@ -1,9 +1,10 @@
 import React from 'react'
-
+import kebula from '../assets/kebula.svg'
 const First = () => {
   return (
-    <div className='pt-96 pl-16 pr-16 pb-24'>
+    <div className=' pt-28 pl-16 pr-16 pb-24'>
     <div className='text-[#fff]'>
+      <img src={kebula} />
         <h1 className='font-medium text-5xl tracking-wider'>AFRICA'S PREMIER CREATIVE <br/>AND INNOVATIVE HUB</h1>
         <h2 className='font-medium text-lg pt-7'>Transforming Lagos into a global epicenter for creativity,<br/>
         technology, and sustainable living.</h2>
