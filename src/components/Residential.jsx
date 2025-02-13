@@ -11,7 +11,7 @@ const Residential = () => {
               <li>1GW clean power generation</li>
               <li>Smart resource management</li>
               <li>Environmental leadership</li>
-              <li>Green building design</li>
+              <li>Green building designs</li>
             </ul>
         </div>
     </div>
